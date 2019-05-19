@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background22"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="253dp"
+        android:text="Pilih Nominal Top-Up"
+        app:layout_constraintBottom_toTopOf="@+id/button5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idgameinput" />
+
+    <Button
+        android:id="@+id/buttonn5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="86dp"
+        android:layout_marginBottom="36dp"
+        android:onClick="showPembayaran"
+        android:text="6 uc"
+        app:layout_constraintBottom_toTopOf="@+id/buttonn7"
+        app:layout_constraintEnd_toStartOf="@+id/buttonn6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <Button
+        android:id="@+id/buttonn6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginBottom="30dp"
+        android:text="11 UC"
+        app:layout_constraintBottom_toTopOf="@+id/buttonn12"
+        app:layout_constraintStart_toEndOf="@+id/buttonn5"
+        app:layout_constraintTop_toTopOf="@+id/textView4" />
+
+    <Button
+        android:id="@+id/buttonn7"
+        android:layout_width="120dp"
+        android:layout_height="42dp"
+        android:text="14 UC"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="192dp" />
+
+    <Button
+        android:id="@+id/buttonn8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="36 UC"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="267dp" />
+
+    <Button
+        android:id="@+id/buttonn9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="220 UC"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="357dp" />
+
+    <Button
+        android:id="@+id/buttonn10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="366 uc"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="444dp" />
+
+    <Button
+        android:id="@+id/buttonn11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="966 uc"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="538dp" />
+
+    <Button
+        android:id="@+id/buttonn12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="19 uc"
+        tools:layout_editor_absoluteX="221dp"
+        tools:layout_editor_absoluteY="186dp" />
+
+    <Button
+        android:id="@+id/buttonn13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="74 uc"
+        tools:layout_editor_absoluteX="221dp"
+        tools:layout_editor_absoluteY="267dp" />
+
+    <Button
+        android:id="@+id/buttonn14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="275 uc"
+        tools:layout_editor_absoluteX="221dp"
+        tools:layout_editor_absoluteY="357dp" />
+
+    <Button
+        android:id="@+id/buttonn15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="568 uc"
+        tools:layout_editor_absoluteX="221dp"
+        tools:layout_editor_absoluteY="444dp" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2010 uc"
+        tools:layout_editor_absoluteX="214dp"
+        tools:layout_editor_absoluteY="538dp" />
+
+    <EditText
+        android:id="@+id/idgameinput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:hint="Masukan ID game Anda"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent" />
+</android.support.constraint.ConstraintLayout>
